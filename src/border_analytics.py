@@ -64,10 +64,10 @@ class BorderAnalytics:
         
 # Here we start the analysis
 inputFile = "../input/Border_Crossing_Entry_Data.csv"
-testInput = "../insight_testsuite/tests/test_1/input/Border_Crossing_Entry_Data.csv"
-testOutput = "../insight_testsuite/tests/test_1/output/report.csv"
+#testInput = "../insight_testsuite/tests/test_1/input/Border_Crossing_Entry_Data.csv"
+#testOutput = "../insight_testsuite/tests/test_1/output/report.csv"
 outputDir = "../output/"
 
 analytics = BorderAnalytics(inputFile,outputDir)
-analytics = BorderAnalytics(testInput,testOutput)
+#analytics = BorderAnalytics(testInput,testOutput)
 analytics.startAnalysis()
