@@ -69,5 +69,5 @@ testOutput = "../insight_testsuite/tests/test_1/output/report.csv"
 outputDir = "../output/"
 
 analytics = BorderAnalytics(inputFile,outputDir)
-#analytics = BorderAnalytics(testInput,testOutput)
+analytics = BorderAnalytics(testInput,testOutput)
 analytics.startAnalysis()
