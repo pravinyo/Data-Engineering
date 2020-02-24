@@ -64,8 +64,8 @@ class BorderAnalytics:
         
 # Here we start the analysis
 inputFile = "../input/Border_Crossing_Entry_Data.csv"
-testInput = "../insight_testsuite/tests/test_1/input/text_file.csv"
-testOutput = "../insight_testsuite/tests/test_1/output/"
+testInput = "../insight_testsuite/tests/my_test_1/input/text_file.csv"
+testOutput = "../insight_testsuite/tests/my_test_1/output/report.csv"
 outputDir = "../output/"
 
 analytics = BorderAnalytics(inputFile,outputDir)
