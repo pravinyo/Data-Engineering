@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30db4068-65d8-4a63-a80c-7cab46747d95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.ipynb_checkpoints/border_analytics-checkpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/.ipynb_checkpoints/border_analytics-checkpoint.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/border_analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/border_analytics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,8 +29,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
@@ -35,6 +46,9 @@
       <option name="presentableId" value="Default" />
       <updated>1582506420604</updated>
       <workItem from="1582506424851" duration="102000" />
+      <workItem from="1583866341473" duration="8912000" />
+      <workItem from="1583988330371" duration="6640000" />
+      <workItem from="1584037169848" duration="450000" />
     </task>
     <servers />
   </component>
@@ -42,9 +56,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1582506447724">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="341" y="150" key="SettingsEditor" timestamp="1583866620512">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="341" y="150" key="SettingsEditor/0.23.1680.976@0.23.1680.976" timestamp="1583866620512" />
+    <state x="517" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1583988350533">
+      <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582506447724" />
+    <state x="517" y="355" key="com.intellij.ide.util.TipDialog/0.23.1680.976@0.23.1680.976" timestamp="1583988350533" />
+    <state x="623" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583870609892">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="623" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.976@0.23.1680.976" timestamp="1583870609892" />
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1584029737283">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1584029737283" />
   </component>
 </project>

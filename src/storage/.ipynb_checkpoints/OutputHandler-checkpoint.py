@@ -1,8 +1,8 @@
 import pandas as pd
 
 class OutputHandler:
-    def __init__(self, outputDir):
-        self.outputDir = outputDir
+    def __init__(self, outputFilePath):
+        self.outputFilePath = outputFilePath
         
     def save_to_csv(self,header,output):
         save = []
@@ -17,6 +17,7 @@ class OutputHandler:
         df =  pd.DataFrame(save)
         
         #save to csv
-        df.to_csv(self.outputDir+'/report.csv', sep=',', header=None, index=False)
+        print("Path:"+self.outputFilePath)
+        df.to_csv(self.outputFilePath, sep=',', header=None, index=False)
         
         return "Saved! Successfully"

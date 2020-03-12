@@ -1,7 +1,8 @@
+from computation.BorderCrossingComputation import BorderCrossingComputation
+from preprocessing.Preprocessor import Preprocessor
 from storage.InputHandler import InputHandler
 from storage.OutputHandler import OutputHandler
-from preprocessing.Preprocessor import Preprocessor
-from computation.BorderCrossingComputation import BorderCrossingComputation
+
 
 class BorderAnalytics:
     def __init__(self,inputFile,outputDir):
