@@ -11,6 +11,8 @@ class OutputHandler:
             writer = csv.writer(file)
             writer.writerow(header)
             writer.writerows(output)
+
+        file.close()
 '''
         save = []
         
