@@ -1,13 +1,15 @@
-from computation.BorderCrossingComputation import BorderCrossingComputation
-from preprocessing.Preprocessor import Preprocessor
 from storage.InputHandler import InputHandler
 from storage.OutputHandler import OutputHandler
+from preprocessing.Preprocessor import Preprocessor
+from computation.BorderCrossingComputation import BorderCrossingComputation
+import argparse
+import sys
 
 
 class BorderAnalytics:
-    def __init__(self,inputFile,outputDir):
+    def __init__(self,inputFile,outputFilePath):
         self.input = inputFile
-        self.outputDir = outputDir
+        self.outputFilePath = outputFilePath
         self.inputHandler = None
         self.outputHandler = None
         self.preprocessor = None
@@ -52,23 +54,28 @@ class BorderAnalytics:
         print("Finished")
         
         print("Saving output")
-        self.saveOutput(self.outputDir,output)
+        self.saveOutput(output)
         
         
-    def saveOutput(self,outputDir,output):
-        self.outputHandler = OutputHandler(self.outputDir)
+    def saveOutput(self,output):
+        self.outputHandler = OutputHandler(self.outputFilePath)
         header = ["Border","Date","Measure","Value","Average"]
         status = self.outputHandler.save_to_csv(header,output)
         print(status)
         
 
-        
-# Here we start the analysis
-inputFile = "../input/Border_Crossing_Entry_Data.csv"
-testInput = "../insight_testsuite/tests/test_1/input/text_file.csv"
-testOutput = "../insight_testsuite/tests/test_1/output/"
-outputDir = "../output/"
 
-analytics = BorderAnalytics(inputFile,outputDir)
-#analytics = BorderAnalytics(testInput,testOutput)
-analytics.startAnalysis()
+try:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("inputFile", help="Input csv file for Analytics")
+    parser.add_argument("outputFilePath", help="dir for analytics output")
+    
+    args = parser.parse_args()
+    
+    analytics = BorderAnalytics(args.inputFile,args.outputFilePath)
+    analytics.startAnalysis()
+    
+    
+except:
+    e = sys.exc_info()[0]
+    print(e)
