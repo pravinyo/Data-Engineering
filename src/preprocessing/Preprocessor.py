@@ -1,4 +1,4 @@
-import dateutil.parser
+import dateutil
 
 class Preprocessor:
     def __init__(self,inputList):
