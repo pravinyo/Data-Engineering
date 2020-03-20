@@ -1,7 +1,7 @@
-from storage.InputHandler import InputHandler
-from storage.OutputHandler import OutputHandler
-from preprocessing.Preprocessor import Preprocessor
-from computation.BorderCrossingComputation import BorderCrossingComputation
+from .storage.InputHandler import InputHandler
+from .storage.OutputHandler import OutputHandler
+from .preprocessing.Preprocessor import Preprocessor
+from .computation.BorderCrossingComputation import BorderCrossingComputation
 import argparse
 import sys
 
