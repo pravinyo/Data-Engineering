@@ -29,6 +29,3 @@ class OutputHandler:
         
         return "Saved! Successfully"
 '''
-        #save to csv
-        print("Path:"+self.outputFilePath)
-    return "Saved! Successfully"
