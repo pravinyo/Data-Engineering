@@ -1,4 +1,4 @@
-from storage import InputHandler
+from storage.InputHandler import InputHandler
 from storage.OutputHandler import OutputHandler
 from preprocessing.Preprocessor import Preprocessor
 from computation.BorderCrossingComputation import BorderCrossingComputation
