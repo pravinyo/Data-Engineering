@@ -1,11 +1,11 @@
-if __name__ == '__main__' and __package__ is None: 
-    from os import sys, path 
-    sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
-
-from storage.InputHandler import InputHandler
-from storage.OutputHandler import OutputHandler
-from preprocessing.Preprocessor import Preprocessor
-from computation.BorderCrossingComputation import BorderCrossingComputation
+from storage import InputHandler
+InputHandler = InputHandler.InputHandler()
+from storage import OutputHandler
+OutputHandler = OutputHandler.OutputHandler()
+from preprocessing import Preprocessor
+Preprocessor = Preprocessor.Preprocessor()
+from computation import BorderCrossingComputation
+BorderCrossingComputation = BorderCrossingComputation.BorderCrossingComputation()
 import argparse
 import sys
 
