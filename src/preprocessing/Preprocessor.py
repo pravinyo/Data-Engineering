@@ -1,4 +1,4 @@
-import datetime
+import dateutil.parser
 
 class Preprocessor:
     def __init__(self,inputList):
@@ -8,7 +8,7 @@ class Preprocessor:
     
     def parseDateTime(self):
         for item_index in range(len(self.list)):
-            temp = str(datetime.datetime(self.list[item_index][4]))
+            temp = str(dateutil.parser.parse(self.list[item_index][4]))
             self.list[item_index].append(temp)
             
         return self.list
